@@ -1,0 +1,5 @@
+spring: 
+  data:
+    mongodb:
+      uri: mongodb+srv://edikudasaiteja:BtyUSbOidQUCwvga@cluster0.im0lzcm.mongodb.net/?retryWrites=true&w=majority
+      database: InventoryDatabase

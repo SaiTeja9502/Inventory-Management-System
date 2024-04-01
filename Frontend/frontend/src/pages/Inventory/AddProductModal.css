@@ -1,0 +1,68 @@
+/* src/components/AddProductModal.css */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    max-height: 400px; /* Set a maximum height for vertical scrolling */
+  overflow-y: auto; /* Enable vertical scrolling */
+  }
+  
+  .product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    max-height: 100px; /* Set a maximum height for the images */
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: black;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .close-btn {
+    margin-top: 20px;
+    background-color: #ff3b3b;
+  }
+  
