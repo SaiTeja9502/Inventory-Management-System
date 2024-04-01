@@ -1,1 +1,2 @@
 # Inventory-Management-System
+Developed a robust Java full-stack application, providing retailers with a comprehensive inventory management solution. The system empowers retailers to efficiently monitor stock levels, initiate reorders, and seamlessly manage inventory across multiple products and categories. Implemented real-time notifications via email, enabling retailers to stay informed instantly when stock levels fall below predefined thresholds. This proactive feature ensures timely replenishment, minimizing stockouts and optimizing inventory turnover rates.
